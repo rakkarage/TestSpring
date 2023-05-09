@@ -1,0 +1,85 @@
+[gd_scene load_steps=3 format=3 uid="uid://ckkuu8la02k4o"]
+
+[ext_resource type="Script" path="res://Test.gd" id="1_u8134"]
+[ext_resource type="Texture2D" uid="uid://c45rm80yjh5px" path="res://icon.svg" id="2_2ss8d"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_u8134")
+
+[node name="Center" type="CenterContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="Center"]
+custom_minimum_size = Vector2(384, 384)
+layout_mode = 2
+
+[node name="CubicOut" type="Sprite2D" parent="Center/Panel"]
+position = Vector2(0, 16)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("2_2ss8d")
+
+[node name="CubicIn" type="Sprite2D" parent="Center/Panel"]
+position = Vector2(0, 48)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("2_2ss8d")
+
+[node name="CubicOutIn" type="Sprite2D" parent="Center/Panel"]
+position = Vector2(0, 80)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("2_2ss8d")
+
+[node name="CubicInOut" type="Sprite2D" parent="Center/Panel"]
+position = Vector2(0, 112)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("2_2ss8d")
+
+[node name="ElasticOut" type="Sprite2D" parent="Center/Panel"]
+position = Vector2(0, 144)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("2_2ss8d")
+
+[node name="ElasticIn" type="Sprite2D" parent="Center/Panel"]
+position = Vector2(0, 176)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("2_2ss8d")
+
+[node name="ElasticOutIn" type="Sprite2D" parent="Center/Panel"]
+position = Vector2(0, 208)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("2_2ss8d")
+
+[node name="ElasticInOut" type="Sprite2D" parent="Center/Panel"]
+position = Vector2(0, 240)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("2_2ss8d")
+
+[node name="SpringOut" type="Sprite2D" parent="Center/Panel"]
+position = Vector2(0, 272)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("2_2ss8d")
+
+[node name="SpringIn" type="Sprite2D" parent="Center/Panel"]
+position = Vector2(0, 304)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("2_2ss8d")
+
+[node name="SpringOutIn" type="Sprite2D" parent="Center/Panel"]
+position = Vector2(0, 336)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("2_2ss8d")
+
+[node name="SpringInOut" type="Sprite2D" parent="Center/Panel"]
+position = Vector2(0, 368)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("2_2ss8d")
