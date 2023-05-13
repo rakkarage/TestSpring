@@ -14,7 +14,7 @@ extends Control
 @onready var _springInOut : Sprite2D = $Center/Panel/SpringInOut
 
 const _size := 384.0
-const _time := 1.0
+const _time := 3.33
 
 func _ready():
 	var tween = get_tree().create_tween()
